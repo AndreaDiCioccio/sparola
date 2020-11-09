@@ -1,4 +1,4 @@
-let a3LettersWords = [
+export let a3LettersWords = [
         "abs",
         "aby",
         "ace",
@@ -354,7 +354,7 @@ let a3LettersWords = [
         "zoo"
 ]
 
-let a4LettersWords = [
+export let a4LettersWords = [
     "able",
     "acid",
     "aged",
@@ -857,7 +857,7 @@ let a4LettersWords = [
     "zone"
 ]
 
-let a5LettersWords = [
+export let a5LettersWords = [
     "about",
     "above",
     "abuse",
@@ -1360,7 +1360,7 @@ let a5LettersWords = [
     "youth"
 ]
 
-let a6LettersWords = [
+export let a6LettersWords = [
     "abroad",
     "accept",
     "access",
@@ -1863,7 +1863,7 @@ let a6LettersWords = [
     "yellow"
 ]
 
-let a7LettersWords = [
+export let a7LettersWords = [
     "ability",
     "absence",
     "academy",
