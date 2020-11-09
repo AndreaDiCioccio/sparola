@@ -69,9 +69,9 @@ function startGame(){
 function draw(){
     context.clearRect(0,0, canvas.width, canvas.height)
     drawRemainingWords()
-    drawColumn(column1)
-    drawColumn(column2)
-    drawColumn(column3)
+    remainingWords ? drawColumn(column1) : null
+    remainingWords ? drawColumn(column2) : null
+    remainingWords ? drawColumn(column3) : null
 }
 
 function drawRemainingWords() {
